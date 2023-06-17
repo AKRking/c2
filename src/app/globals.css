@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue: #6a83b6;
+  --gray: #868e96;
+  --black: #000000;
+  --red: #f44336;
+  --pink: #ffb7c1;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-size: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flexStartCenter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexBetweenStart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flexCenterStart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.avatar > div {
+  background-color: transparent;
+}
+
+.btn {
+  color: var(--black);
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 3.4rem;
+  border-color: var(--black);
+}
+
+.icon_btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: var(--gray );
+  margin-left: 0.5rem;
+}
